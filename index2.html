@@ -5,10 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Annay Intimates -.- Lencería Inclusiva</title>
-        <link rel="stylesheet" href="Static/style2.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Static/swiper-bundle.min.css">
+        <link rel="stylesheet" href="Static/style2.css"/>
     </head>
 <body>
     <header>
@@ -35,16 +36,39 @@
         <main>
             <div class="slider">
             </div>
-            <div class="destacados">
+            <div class="destacados swiper">
+                <div class="slideContent">
                     <h2>Productos destacados del mes</h2>
-                    <div class="destacadosImgContainer">
-                        <div class="productoDestacado">
+                    <div class="destacadosImgContainer swiper-wrapper">
+                        <div class="productoDestacado swiper-slide">
                             <img src="Static/img/Emilia salmón.jpg" alt="">
                         </div>
-                        <div class="productoDestacado"></div>
-                        <div class="productoDestacado"></div>
-                        <div class="productoDestacado"></div>
-                    </div>
+                        <div class="productoDestacado swiper-slide">
+                            <img src="Static/img/París rojo.jpg" alt="">
+                        </div>
+                        <div class="productoDestacado swiper-slide">
+                            <img src="Static/img/Fionna negro.jpg" alt="">
+                        </div>
+                        <div class="productoDestacado swiper-slide">
+                            <img src="Static/img/Sofía rojo.jpg" alt="">
+                        </div>
+                        <div class="productoDestacado swiper-slide">
+                            <img src="Static/img/Sofía rojo.jpg" alt="">
+                        </div>
+                        <div class="productoDestacado swiper-slide">
+                            <img src="Static/img/Sofía rojo.jpg" alt="">
+                        </div>
+                        <div class="productoDestacado swiper-slide">
+                            <img src="Static/img/Sofía rojo.jpg" alt="">
+                        </div>
+                        <div class="productoDestacado swiper-slide">
+                            <img src="Static/img/Sofía rojo.jpg" alt="">
+                        </div>
+                    </div>    
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev  swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>    
             </div>
         </main>
         <footer>
@@ -79,4 +103,13 @@
             </div>
         </footer>
 </body>
+
+<!--Swiper-->
+
+<script src="Static/swiper-bundle.min.js"></script>
+
+<!--Javascript-->
+
+<script src="Static/script.js"></script>
+
 </html>
