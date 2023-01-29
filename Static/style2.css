@@ -3,16 +3,18 @@
     margin: 0rem;
     font-family: 'Alegreya', serif;
 }
+
 body{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 8rem 47rem 25rem;
+    grid-template-rows: 8rem auto 33rem;
     grid-template-areas:
     "header header"
     "main main"
     "footer footer";
     height: auto;
 }
+
 header{
     grid-area: header;
 }
@@ -24,12 +26,15 @@ header{
     height: 100%;
     align-content: center;
 }
+
 .headerContainer a{
     width: 25%;
     height: 100%;
 }
+
 ul, ol{
     list-style: none;
+    padding: 0;
 }
 
 .logo{
@@ -109,6 +114,7 @@ align-content: center;
     width: 100%;
     height: 15rem;
     background-size:cover;
+    background-position: center;
     animation-name: sliderAnimate;
     animation-iteration-count: infinite;
     animation-duration: 8s;
@@ -157,10 +163,31 @@ h2{
 
 .swiper-button-next{
     right: 0;
+    padding-top: 4rem;
 }
 
 .swiper-button-prev{
     left: 0;
+    padding-top: 4rem;
+}
+
+#aboutBg{
+    background-image: url("./img/Annay_slider1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25rem;
+    margin-bottom: -3rem;
+}
+
+h1{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+p{
+    font-size: 0.8rem;
+    color: #fff;
 }
 
 footer{
@@ -169,6 +196,7 @@ footer{
     flex-direction:column;
     background-color: #000;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .footerColum{
@@ -219,7 +247,7 @@ footer{
 
 @media screen and (min-width: 376px){
     body{
-        grid-template-rows: 8rem 60rem 27rem;
+        grid-template-rows: 8rem auto 33rem;
     }
     .nav li a{
         font-size: 1.3rem;
@@ -237,7 +265,7 @@ footer{
 @media screen and (min-width: 560px){ 
     body{
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 15rem 80rem 20rem;
+        grid-template-rows: 15rem auto 20rem;
         grid-template-areas:
         "header header header header"
         "main main main main"
