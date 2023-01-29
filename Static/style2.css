@@ -193,6 +193,30 @@ footer{
     color: #fff;
 }
 
+.imgRedesContainer{
+    position: relative;
+    width: 5rem;
+    height: 2rem;
+}
+
+.redLogo1{
+    width: 48%;
+    height: 100%;
+    background-image:url(img/ig-logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.redLogo2{
+    width: 48%;
+    height: 100%;
+    background-image:url(img/logo-fb.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
 @media screen and (min-width: 376px){
     body{
         grid-template-rows: 8rem 60rem 27rem;
@@ -242,6 +266,9 @@ footer{
     .slider{
         height: 28rem;
     }
+    h2{
+        font-size: 1.5rem;
+    }
     .slideContent{
         width: 100%;
     }
@@ -265,5 +292,10 @@ footer{
     }
 }
 @media screen and (min-width: 769px){
-    .
+    .slider{
+        height: 40rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
 }
