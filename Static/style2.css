@@ -176,17 +176,18 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 25rem;
+    height: 22rem;
     margin-bottom: -3rem;
+    margin-top: 3rem;
 }
 
 h1{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fff;
 }
 
 p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #fff;
 }
 
@@ -207,8 +208,16 @@ footer{
 }
 
 .footerColum h3{
-    color: #fff;
     font-size: 0.8rem;
+}
+
+.footerColum h3{
+    color: #fff;
+}
+
+.footerColum h3 a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .footerColum ul{
@@ -217,7 +226,8 @@ footer{
     align-items: center;
 }
 
-.footerColum li{
+.footerColum li a{
+    text-decoration: none;
     color: #fff;
 }
 
@@ -254,6 +264,15 @@ footer{
     }
     .slider{
         height: 20rem;
+    }
+    #aboutBg{
+        height: 26rem;
+    }
+    h1{
+        font-size: 1.4rem;
+    }
+    p{
+        font-size: 0.9rem;
     }
     .footerColum{
         margin-top: 1.3rem;
@@ -300,6 +319,15 @@ footer{
     .slideContent{
         width: 100%;
     }
+    #aboutBg{
+        height: 29rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
     footer{
         flex-direction: row;
         align-items: unset;
@@ -320,10 +348,119 @@ footer{
     }
 }
 @media screen and (min-width: 769px){
+    .nav li a{
+        font-size: 1.5rem;
+    }
     .slider{
         height: 40rem;
     }
     h2{
         font-size: 2rem;
+    }
+    #aboutBg{
+        height: 36rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    .footerColum h3{
+    font-size: 1.5rem;
+    }
+    .footerColum li{
+        font-size: 1.2rem;
+    }
+    .redLogo1{
+        width: 47%;
+    }
+    .redLogo2{
+        width: 47%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .nav li a{
+        font-size: 1.8rem;
+    }
+    .slider{
+        height: 45rem;
+    }
+    h2{
+        font-size: 2.3rem;
+    }
+    #aboutBg{
+        height: 45rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1440px){
+    body{
+        grid-template-rows: 20rem auto 30rem;
+    }
+    .nav li a{
+        font-size: 2.5rem;
+    }
+    .slider{
+        height: 55rem;
+    }
+    h2{
+        font-size: 2.8rem;
+    }
+    #aboutBg{
+        height: 55rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    .footerColum h3{
+        font-size: 2.5rem;
+    }
+    .footerColum li{
+        font-size: 1.9rem;
+    }
+    .imgRedesContainer{
+        width: 6rem;
+        height: 3rem;
+    }
+    .redLogo1{
+        width: 45%;
+    }
+    .redLogo2{
+        width: 45%;
+    } 
+}
+@media screen and (min-width: 1700px){
+    .nav li a{
+        font-size: 3rem;
+    }
+    .slider{
+        height: 85rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    #aboutBg{
+        height: 85rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    p{
+        font-size: 3rem;
+    }
+    .footerColum h3{
+        font-size: 2.7rem;
+    }
+    .footerColum li{
+        font-size: 2.5rem;
     }
 }
