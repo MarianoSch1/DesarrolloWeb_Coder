@@ -125,6 +125,29 @@ body {
           body main .destacados .slideContent .destacadosImgContainer img {
             width: 100%;
             object-fit: cover; }
+    body main .productos {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10%; }
+      body main .productos .producto {
+        display: flex;
+        flex-flow: column wrap; }
+        body main .productos .producto .productoImg {
+          width: 100%; }
+          body main .productos .producto .productoImg img {
+            width: 100%;
+            object-fit: cover; }
+        body main .productos .producto .productoTxt {
+          width: 100%; }
+          body main .productos .producto .productoTxt h3 {
+            font-size: 0.8rem;
+            text-align: start; }
+          body main .productos .producto .productoTxt p {
+            color: #000;
+            font-size: 0.7rem; }
   body footer {
     grid-area: footer;
     display: flex;
@@ -190,6 +213,10 @@ body {
       font-size: 1.3rem; }
     body main .slider {
       height: 20rem; }
+    body main .productos .producto .productoTxt h3 {
+      font-size: 1rem; }
+    body main .productos .producto .productoTxt p {
+      font-size: 0.9rem; }
     body footer .footerColum {
       margin-top: 1.3rem; }
       body footer .footerColum h3 {
@@ -201,7 +228,7 @@ body {
   h1 {
     font-size: 1.8rem; }
   p {
-    font-size: 1.2rem; }
+    font-size: 1.1rem; }
   body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 15rem auto 20rem;
@@ -227,6 +254,10 @@ body {
       width: 100%; }
       body main .destacados .slideContent h2 {
         font-size: 1.5rem; }
+    body main .productos .producto .productoTxt h3 {
+      font-size: 1.2rem; }
+    body main .productos .producto .productoTxt p {
+      font-size: 1.1rem; }
     body footer {
       flex-direction: row;
       align-items: unset;
@@ -254,6 +285,16 @@ body {
     height: 40rem; }
   body main .destacados .slideContent h2 {
     font-size: 2rem; }
+  body main .productos {
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly; }
+    body main .productos .producto {
+      width: 22%; }
+      body main .productos .producto .productoTxt h3 {
+        font-size: 0.9rem; }
+      body main .productos .producto .productoTxt p {
+        font-size: 0.8rem; }
   body footer .footerColum h3 {
     font-size: 1.5rem; }
   body footer .footerColum ul li {
@@ -275,7 +316,11 @@ body {
   body main .slider {
     height: 45rem; }
   body main .destacados .slideContent h2 {
-    font-size: 2.3rem; } }
+    font-size: 2.3rem; }
+  body main .productos .producto .productoTxt h3 {
+    font-size: 1.3rem; }
+  body main .productos .producto .productoTxt p {
+    font-size: 1.1rem; } }
 
 @media screen and (min-width: 1440px) {
   #aboutBg {
@@ -317,6 +362,10 @@ body {
     height: 85rem; }
   body main .destacados .slideContent h2 {
     font-size: 4rem; }
+  body main .productos .producto .productoTxt h3 {
+    font-size: 1.8rem; }
+  body main .productos .producto .productoTxt p {
+    font-size: 1.5rem; }
   body footer .footerColum h3 {
     font-size: 2.7rem; }
   body footer .footerColum ul li {
