@@ -148,6 +148,8 @@ body {
           body main .productos .producto .productoTxt p {
             color: #000;
             font-size: 0.7rem; }
+        body main .productos .producto #titleProduct h3 {
+          font-size: 1rem; }
   body footer {
     grid-area: footer;
     display: flex;
@@ -217,6 +219,8 @@ body {
       font-size: 1rem; }
     body main .productos .producto .productoTxt p {
       font-size: 0.9rem; }
+    body main .productos .producto #titleProduct h3 {
+      font-size: 1.2rem; }
     body footer .footerColum {
       margin-top: 1.3rem; }
       body footer .footerColum h3 {
@@ -258,6 +262,8 @@ body {
       font-size: 1.2rem; }
     body main .productos .producto .productoTxt p {
       font-size: 1.1rem; }
+    body main .productos .producto #titleProduct h3 {
+      font-size: 1.6rem; }
     body footer {
       flex-direction: row;
       align-items: unset;
@@ -295,6 +301,10 @@ body {
         font-size: 0.9rem; }
       body main .productos .producto .productoTxt p {
         font-size: 0.8rem; }
+      body main .productos .producto #titleProduct h3 {
+        font-size: 1.8rem; }
+    body main .productos #product {
+      width: 30%; }
   body footer .footerColum h3 {
     font-size: 1.5rem; }
   body footer .footerColum ul li {
@@ -320,7 +330,9 @@ body {
   body main .productos .producto .productoTxt h3 {
     font-size: 1.3rem; }
   body main .productos .producto .productoTxt p {
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; }
+  body main .productos .producto #titleProduct h3 {
+    font-size: 2rem; } }
 
 @media screen and (min-width: 1440px) {
   #aboutBg {
@@ -366,6 +378,8 @@ body {
     font-size: 1.8rem; }
   body main .productos .producto .productoTxt p {
     font-size: 1.5rem; }
+  body main .productos .producto #titleProduct h3 {
+    font-size: 2.6rem; }
   body footer .footerColum h3 {
     font-size: 2.7rem; }
   body footer .footerColum ul li {
