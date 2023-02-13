@@ -150,6 +150,71 @@ body {
             font-size: 0.7rem; }
         body main .productos .producto #titleProduct h3 {
           font-size: 1rem; }
+    body main .contenedorProduct {
+      display: flex;
+      justify-content: space-evenly; }
+      body main .contenedorProduct .productDetail {
+        width: 100%;
+        margin-top: 10rem;
+        display: flex;
+        flex-flow: column wrap; }
+        body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
+          width: 55px !important;
+          height: 73.3px !important; }
+        body main .contenedorProduct .productDetail .descripcion {
+          display: flex;
+          flex-flow: column wrap; }
+          body main .contenedorProduct .productDetail .descripcion h2 {
+            font-size: 1.3rem; }
+          body main .contenedorProduct .productDetail .descripcion p {
+            color: #000;
+            font-size: 0.7rem; }
+          body main .contenedorProduct .productDetail .descripcion h3 {
+            font-size: 1rem; }
+          body main .contenedorProduct .productDetail .descripcion .talle {
+            display: flex;
+            gap: 0.5rem; }
+            body main .contenedorProduct .productDetail .descripcion .talle div {
+              display: flex;
+              justify-content: center;
+              text-align: center;
+              width: 1rem;
+              height: 1rem;
+              border: 1px solid #000; }
+              body main .contenedorProduct .productDetail .descripcion .talle div h6 {
+                font-size: 0.6rem; }
+          body main .contenedorProduct .productDetail .descripcion #h3-color {
+            margin-top: 1rem; }
+          body main .contenedorProduct .productDetail .descripcion .color {
+            display: flex;
+            gap: 0.5rem; }
+            body main .contenedorProduct .productDetail .descripcion .color div {
+              width: 1rem;
+              height: 1rem;
+              border: 1px solid #000; }
+            body main .contenedorProduct .productDetail .descripcion .color .colorBlack {
+              background-color: #000; }
+            body main .contenedorProduct .productDetail .descripcion .color .colorWhite {
+              background-color: #fff; }
+            body main .contenedorProduct .productDetail .descripcion .color .colorRed {
+              background-color: rgba(233, 36, 36, 0.774); }
+          body main .contenedorProduct .productDetail .descripcion a {
+            text-decoration: none;
+            width: max-content; }
+            body main .contenedorProduct .productDetail .descripcion a .precio {
+              width: fit-content;
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              border: 1px solid #000;
+              background-color: rgba(128, 128, 128, 0.849);
+              margin-top: 1rem;
+              flex-direction: column; }
+              body main .contenedorProduct .productDetail .descripcion a .precio h4 {
+                color: #fff;
+                font-size: 0.8rem; }
+              body main .contenedorProduct .productDetail .descripcion a .precio:hover {
+                background-color: #ddaa28; }
   body footer {
     grid-area: footer;
     display: flex;
@@ -193,6 +258,9 @@ body {
             background-size: contain;
             background-repeat: no-repeat;
             display: inline-block; }
+  body .etalage_zoom_area div {
+    width: 0px !important;
+    height: 0px !important; }
 
 @keyframes sliderAnimate {
   0% {
@@ -221,6 +289,22 @@ body {
       font-size: 0.9rem; }
     body main .productos .producto #titleProduct h3 {
       font-size: 1.2rem; }
+    body main .contenedorProduct .productDetail .descripcion h2 {
+      font-size: 1.4rem; }
+    body main .contenedorProduct .productDetail .descripcion h3 {
+      font-size: 1.1rem; }
+    body main .contenedorProduct .productDetail .descripcion p {
+      font-size: 0.8rem; }
+    body main .contenedorProduct .productDetail .descripcion .talle div {
+      width: 1.1rem;
+      height: 1.1rem; }
+      body main .contenedorProduct .productDetail .descripcion .talle div h6 {
+        font-size: 0.7rem; }
+    body main .contenedorProduct .productDetail .descripcion a .precio {
+      margin-top: 1rem;
+      flex-direction: column; }
+      body main .contenedorProduct .productDetail .descripcion a .precio h4 {
+        font-size: 0.9rem; }
     body footer .footerColum {
       margin-top: 1.3rem; }
       body footer .footerColum h3 {
@@ -264,6 +348,12 @@ body {
       font-size: 1.1rem; }
     body main .productos .producto #titleProduct h3 {
       font-size: 1.6rem; }
+    body main .contenedorProduct {
+      width: 100%; }
+      body main .contenedorProduct .productDetail {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 1rem; }
     body footer {
       flex-direction: row;
       align-items: unset;
@@ -276,7 +366,18 @@ body {
           align-items: flex-start;
           margin-top: 1rem; }
           body footer .footerColum ul li {
-            margin-top: 0.5rem; } }
+            margin-top: 0.5rem; }
+  .etalage_zoom_area div {
+    width: 200px !important;
+    height: 200px !important; } }
+
+@media screen and (min-width: 641px) {
+  body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
+    width: 75px !important;
+    height: 100px !important; }
+  .etalage_zoom_area div {
+    width: 280px !important;
+    height: 280px !important; } }
 
 @media screen and (min-width: 769px) {
   #aboutBg {
@@ -305,6 +406,31 @@ body {
         font-size: 1.8rem; }
     body main .productos #product {
       width: 30%; }
+  body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
+    width: 90px !important;
+    height: 120px !important; }
+  body main .contenedorProduct .productDetail .descripcion h2 {
+    font-size: 1.7rem; }
+  body main .contenedorProduct .productDetail .descripcion h3 {
+    font-size: 1.3rem; }
+  body main .contenedorProduct .productDetail .descripcion p {
+    font-size: 1rem; }
+  body main .contenedorProduct .productDetail .descripcion .talle {
+    gap: 0.7rem; }
+    body main .contenedorProduct .productDetail .descripcion .talle div {
+      width: 1.2rem;
+      height: 1.2rem; }
+      body main .contenedorProduct .productDetail .descripcion .talle div h6 {
+        font-size: 0.9rem; }
+  body main .contenedorProduct .productDetail .descripcion .color {
+    gap: 0.7rem; }
+    body main .contenedorProduct .productDetail .descripcion .color div {
+      width: 1.2rem;
+      height: 1.2rem; }
+  body main .contenedorProduct .productDetail .descripcion a .precio {
+    margin-top: 1.5rem; }
+    body main .contenedorProduct .productDetail .descripcion a .precio h4 {
+      font-size: 1.35rem; }
   body footer .footerColum h3 {
     font-size: 1.5rem; }
   body footer .footerColum ul li {
@@ -312,7 +438,10 @@ body {
     body footer .footerColum ul li .imgRedesContainer .redLogo1 {
       width: 47%; }
     body footer .footerColum ul li .imgRedesContainer .redLogo2 {
-      width: 47%; } }
+      width: 47%; }
+  .etalage_zoom_area div {
+    width: 350px !important;
+    height: 350px !important; } }
 
 @media screen and (min-width: 1024px) {
   #aboutBg {
@@ -332,7 +461,35 @@ body {
   body main .productos .producto .productoTxt p {
     font-size: 1.1rem; }
   body main .productos .producto #titleProduct h3 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
+    width: 106px !important;
+    height: 139px !important; }
+  body main .contenedorProduct .productDetail .descripcion h2 {
+    font-size: 2.1rem; }
+  body main .contenedorProduct .productDetail .descripcion h3 {
+    font-size: 1.7rem; }
+  body main .contenedorProduct .productDetail .descripcion p {
+    font-size: 1.3rem; }
+  body main .contenedorProduct .productDetail .descripcion .talle {
+    gap: 0.9rem; }
+    body main .contenedorProduct .productDetail .descripcion .talle div {
+      width: 1.7rem;
+      height: 1.7rem; }
+      body main .contenedorProduct .productDetail .descripcion .talle div h6 {
+        font-size: 1.2rem; }
+  body main .contenedorProduct .productDetail .descripcion .color {
+    gap: 0.9rem; }
+    body main .contenedorProduct .productDetail .descripcion .color div {
+      width: 1.7rem;
+      height: 1.7rem; }
+  body main .contenedorProduct .productDetail .descripcion a .precio {
+    margin-top: 1.7rem; }
+    body main .contenedorProduct .productDetail .descripcion a .precio h4 {
+      font-size: 1.5rem; }
+  .etalage_zoom_area div {
+    width: 580px !important;
+    height: 580px !important; } }
 
 @media screen and (min-width: 1440px) {
   #aboutBg {
@@ -349,6 +506,28 @@ body {
       height: 55rem; }
     body main .destacados .slideContent h2 {
       font-size: 2.8rem; }
+    body main .contenedorProduct .productDetail .descripcion h2 {
+      font-size: 2.4rem; }
+    body main .contenedorProduct .productDetail .descripcion h3 {
+      font-size: 1.9rem; }
+    body main .contenedorProduct .productDetail .descripcion p {
+      font-size: 1.4rem; }
+    body main .contenedorProduct .productDetail .descripcion .talle {
+      gap: 1.2rem; }
+      body main .contenedorProduct .productDetail .descripcion .talle div {
+        width: 1.8rem;
+        height: 1.8rem; }
+        body main .contenedorProduct .productDetail .descripcion .talle div h6 {
+          font-size: 1.3rem; }
+    body main .contenedorProduct .productDetail .descripcion .color {
+      gap: 1.2rem; }
+      body main .contenedorProduct .productDetail .descripcion .color div {
+        width: 1.8rem;
+        height: 1.8rem; }
+    body main .contenedorProduct .productDetail .descripcion a .precio {
+      margin-top: 2rem; }
+      body main .contenedorProduct .productDetail .descripcion a .precio h4 {
+        font-size: 1.7rem; }
     body footer .footerColum h3 {
       font-size: 2.5rem; }
     body footer .footerColum ul li {
@@ -380,6 +559,28 @@ body {
     font-size: 1.5rem; }
   body main .productos .producto #titleProduct h3 {
     font-size: 2.6rem; }
+  body main .contenedorProduct .productDetail .descripcion h2 {
+    font-size: 3rem; }
+  body main .contenedorProduct .productDetail .descripcion h3 {
+    font-size: 2.3rem; }
+  body main .contenedorProduct .productDetail .descripcion p {
+    font-size: 1.8rem; }
+  body main .contenedorProduct .productDetail .descripcion .talle {
+    gap: 1.5rem; }
+    body main .contenedorProduct .productDetail .descripcion .talle div {
+      width: 2.4rem;
+      height: 2.4rem; }
+      body main .contenedorProduct .productDetail .descripcion .talle div h6 {
+        font-size: 1.7rem; }
+  body main .contenedorProduct .productDetail .descripcion .color {
+    gap: 1.5rem; }
+    body main .contenedorProduct .productDetail .descripcion .color div {
+      width: 2.4rem;
+      height: 2.4rem; }
+  body main .contenedorProduct .productDetail .descripcion a .precio {
+    margin-top: 2.5rem; }
+    body main .contenedorProduct .productDetail .descripcion a .precio h4 {
+      font-size: 2rem; }
   body footer .footerColum h3 {
     font-size: 2.7rem; }
   body footer .footerColum ul li {
