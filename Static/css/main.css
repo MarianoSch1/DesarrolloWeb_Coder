@@ -125,12 +125,33 @@ body {
           body main .destacados .slideContent .destacadosImgContainer img {
             width: 100%;
             object-fit: cover; }
+      body main .destacados .relacionadosContent {
+        width: 90%; }
+        body main .destacados .relacionadosContent h3 {
+          margin-top: 3rem;
+          font-size: 0.9rem;
+          color: rgba(241, 163, 99, 0.795);
+          text-align: center; }
+        body main .destacados .relacionadosContent .destacadosImgContainer {
+          margin-top: 3rem;
+          width: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center; }
+          body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado {
+            width: 60%; }
+            body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+              font-size: 0.6rem; }
+            body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+              color: #000;
+              font-size: 0.5rem; }
+            body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado img {
+              width: 100%; }
     body main .productos {
       display: flex;
       flex-direction: column;
       width: 80%;
       justify-content: space-around;
-      align-items: center;
       margin-top: 10%; }
       body main .productos .producto {
         display: flex;
@@ -289,6 +310,18 @@ body {
       font-size: 0.9rem; }
     body main .productos .producto #titleProduct h3 {
       font-size: 1.2rem; }
+    body main .destacados .relacionadosContent h3 {
+      font-size: 1.1rem; }
+    body main .destacados .relacionadosContent .destacadosImgContainer {
+      align-items: normal;
+      flex-direction: row;
+      justify-content: space-between; }
+      body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado {
+        width: 25%; }
+        body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+          font-size: 0.7rem; }
+        body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+          font-size: 0.6rem; }
     body main .contenedorProduct .productDetail .descripcion h2 {
       font-size: 1.4rem; }
     body main .contenedorProduct .productDetail .descripcion h3 {
@@ -348,6 +381,12 @@ body {
       font-size: 1.1rem; }
     body main .productos .producto #titleProduct h3 {
       font-size: 1.6rem; }
+    body main .destacados .relacionadosContent h3 {
+      font-size: 1.4rem; }
+    body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+      font-size: 1rem; }
+    body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+      font-size: 0.8rem; }
     body main .contenedorProduct {
       width: 100%; }
       body main .contenedorProduct .productDetail {
@@ -366,18 +405,12 @@ body {
           align-items: flex-start;
           margin-top: 1rem; }
           body footer .footerColum ul li {
-            margin-top: 0.5rem; }
-  .etalage_zoom_area div {
-    width: 200px !important;
-    height: 200px !important; } }
+            margin-top: 0.5rem; } }
 
 @media screen and (min-width: 641px) {
   body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
     width: 75px !important;
-    height: 100px !important; }
-  .etalage_zoom_area div {
-    width: 280px !important;
-    height: 280px !important; } }
+    height: 100px !important; } }
 
 @media screen and (min-width: 769px) {
   #aboutBg {
@@ -406,6 +439,12 @@ body {
         font-size: 1.8rem; }
     body main .productos #product {
       width: 30%; }
+  body main .destacados .relacionadosContent h3 {
+    font-size: 1.8rem; }
+  body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+    font-size: 1.3rem; }
+  body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+    font-size: 1.1rem; }
   body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
     width: 90px !important;
     height: 120px !important; }
@@ -438,10 +477,7 @@ body {
     body footer .footerColum ul li .imgRedesContainer .redLogo1 {
       width: 47%; }
     body footer .footerColum ul li .imgRedesContainer .redLogo2 {
-      width: 47%; }
-  .etalage_zoom_area div {
-    width: 350px !important;
-    height: 350px !important; } }
+      width: 47%; } }
 
 @media screen and (min-width: 1024px) {
   #aboutBg {
@@ -456,21 +492,27 @@ body {
     height: 45rem; }
   body main .destacados .slideContent h2 {
     font-size: 2.3rem; }
+  body main .destacados .relacionadosContent h3 {
+    font-size: 2.1rem; }
+  body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+    font-size: 1.7rem; }
+  body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+    font-size: 1.4rem; }
   body main .productos .producto .productoTxt h3 {
     font-size: 1.3rem; }
   body main .productos .producto .productoTxt p {
-    font-size: 1.1rem; }
+    font-size: 1rem; }
   body main .productos .producto #titleProduct h3 {
     font-size: 2rem; }
   body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
-    width: 106px !important;
-    height: 139px !important; }
+    width: 104px !important;
+    height: 130px !important; }
   body main .contenedorProduct .productDetail .descripcion h2 {
     font-size: 2.1rem; }
   body main .contenedorProduct .productDetail .descripcion h3 {
     font-size: 1.7rem; }
   body main .contenedorProduct .productDetail .descripcion p {
-    font-size: 1.3rem; }
+    font-size: 1.2rem; }
   body main .contenedorProduct .productDetail .descripcion .talle {
     gap: 0.9rem; }
     body main .contenedorProduct .productDetail .descripcion .talle div {
@@ -486,10 +528,7 @@ body {
   body main .contenedorProduct .productDetail .descripcion a .precio {
     margin-top: 1.7rem; }
     body main .contenedorProduct .productDetail .descripcion a .precio h4 {
-      font-size: 1.5rem; }
-  .etalage_zoom_area div {
-    width: 580px !important;
-    height: 580px !important; } }
+      font-size: 1.5rem; } }
 
 @media screen and (min-width: 1440px) {
   #aboutBg {
@@ -506,6 +545,12 @@ body {
       height: 55rem; }
     body main .destacados .slideContent h2 {
       font-size: 2.8rem; }
+    body main .destacados .relacionadosContent h3 {
+      font-size: 2.5rem; }
+    body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+      font-size: 2rem; }
+    body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+      font-size: 1.7rem; }
     body main .contenedorProduct .productDetail .descripcion h2 {
       font-size: 2.4rem; }
     body main .contenedorProduct .productDetail .descripcion h3 {
@@ -553,6 +598,12 @@ body {
     height: 85rem; }
   body main .destacados .slideContent h2 {
     font-size: 4rem; }
+  body main .destacados .relacionadosContent h3 {
+    font-size: 2.8rem; }
+  body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+    font-size: 2.3rem; }
+  body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+    font-size: 1.9rem; }
   body main .productos .producto .productoTxt h3 {
     font-size: 1.8rem; }
   body main .productos .producto .productoTxt p {

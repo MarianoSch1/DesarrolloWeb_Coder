@@ -99,7 +99,7 @@ div.etalage_description.rtl{ direction:rtl; text-align:right }
 @media (max-width:2560px){
 	#etalage .etalage_thumb_image {
 			width: 600px !important;
-			height: 800px !important;
+			height: 850px !important;
 		}
 		#etalage .etalage_icon {
 			width: 80px;
