@@ -53,10 +53,12 @@ body{
             height: 100%;
             align-content: center;
             a{
+                display: inherit;
                 width: 25%;
                 height: 100%;
+                justify-content: center;
                 .logo{
-                    background-image:url(../img/Annay-Logo.ico);
+                    background-image:url(../img/annay-logo.svg);
                     width: 100%;
                     height: 100%;
                     background-position: center;
@@ -505,8 +507,10 @@ body{
         "footer footer footer footer";
         header{
             .headerContainer{
-                .logo{
-                    width: 60%;
+                a{
+                    .logo{
+                        width: 60%;
+                    }
                 }
                 label{
                     display: none;
@@ -776,6 +780,11 @@ body{
     body{
         header{
             .headerContainer{
+                a{
+                    .logo{
+                        width: 50%;
+                    }
+                }
                 .nav{
                    li{
                        a{

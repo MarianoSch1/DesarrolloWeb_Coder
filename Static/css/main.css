@@ -47,10 +47,12 @@ body {
       height: 100%;
       align-content: center; }
       body header .headerContainer a {
+        display: inherit;
         width: 25%;
-        height: 100%; }
+        height: 100%;
+        justify-content: center; }
         body header .headerContainer a .logo {
-          background-image: url(../img/Annay-Logo.ico);
+          background-image: url(../img/annay-logo.svg);
           width: 100%;
           height: 100%;
           background-position: center;
@@ -354,7 +356,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 15rem auto 20rem;
     grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
-    body header .headerContainer .logo {
+    body header .headerContainer a .logo {
       width: 60%; }
     body header .headerContainer label {
       display: none; }
@@ -486,6 +488,8 @@ body {
     font-size: 3rem; }
   p {
     font-size: 2rem; }
+  body header .headerContainer a .logo {
+    width: 50%; }
   body header .headerContainer .nav li a {
     font-size: 1.8rem; }
   body main .slider {
