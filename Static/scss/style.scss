@@ -228,6 +228,7 @@ body{
                     }
                 }
                 .descripcion{
+                    margin-left: 5px;
                     display: flex;
                     flex-flow: column wrap;                    
                     h2{
@@ -422,6 +423,7 @@ body{
             .contenedorProduct{
                 .productDetail{
                     .descripcion{
+                        margin-left: 0;
                         h2{
                             font-size: 1.4rem;
                         }
@@ -429,7 +431,7 @@ body{
                             font-size: 1rem;
                         }
                         p{
-                            font-size: 0.8rem;
+                            font-size: 0.79rem;
                         }
                         .talle{
                             div{
