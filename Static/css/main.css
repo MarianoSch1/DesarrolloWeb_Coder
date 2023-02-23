@@ -87,14 +87,10 @@ body {
           text-align: center;
           height: auto;
           width: auto; }
-          body header .headerContainer .nav li a:hover {
-            color: #000; }
         body header .headerContainer .nav li ul {
           display: none;
           position: relative;
           width: 100%; }
-        body header .headerContainer .nav #submenu:hover > ul {
-          display: block; }
   body main {
     grid-area: main;
     display: flex;
@@ -143,10 +139,10 @@ body {
           body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado {
             width: 60%; }
             body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
-              font-size: 0.6rem; }
+              font-size: 1rem; }
             body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
               color: #000;
-              font-size: 0.5rem; }
+              font-size: 0.9rem; }
             body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado img {
               width: 100%; }
     body main .productos {
@@ -236,8 +232,6 @@ body {
               body main .contenedorProduct .productDetail .descripcion a .precio h4 {
                 color: #fff;
                 font-size: 0.8rem; }
-              body main .contenedorProduct .productDetail .descripcion a .precio:hover {
-                background-color: #ddaa28; }
   body footer {
     grid-area: footer;
     display: flex;
@@ -314,20 +308,10 @@ body {
       font-size: 1.2rem; }
     body main .destacados .relacionadosContent h3 {
       font-size: 1.1rem; }
-    body main .destacados .relacionadosContent .destacadosImgContainer {
-      align-items: normal;
-      flex-direction: row;
-      justify-content: space-between; }
-      body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado {
-        width: 25%; }
-        body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
-          font-size: 0.7rem; }
-        body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
-          font-size: 0.6rem; }
     body main .contenedorProduct .productDetail .descripcion h2 {
       font-size: 1.4rem; }
     body main .contenedorProduct .productDetail .descripcion h3 {
-      font-size: 1.1rem; }
+      font-size: 1rem; }
     body main .contenedorProduct .productDetail .descripcion p {
       font-size: 0.8rem; }
     body main .contenedorProduct .productDetail .descripcion .talle div {
@@ -370,7 +354,7 @@ body {
         flex-flow: row wrap;
         width: 100%; }
       body header .headerContainer .nav li a {
-        font-size: 1.2rem; }
+        font-size: 1.1rem; }
     body main .slider {
       height: 28rem; }
     body main .destacados .slideContent {
@@ -385,10 +369,16 @@ body {
       font-size: 1.6rem; }
     body main .destacados .relacionadosContent h3 {
       font-size: 1.4rem; }
-    body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
-      font-size: 1rem; }
-    body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
-      font-size: 0.8rem; }
+    body main .destacados .relacionadosContent .destacadosImgContainer {
+      align-items: normal;
+      flex-direction: row;
+      justify-content: space-between; }
+      body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado {
+        width: 25%; }
+        body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado h4 {
+          font-size: 1rem; }
+        body main .destacados .relacionadosContent .destacadosImgContainer .productoDestacado p {
+          font-size: 0.9rem; }
     body main .contenedorProduct {
       width: 100%; }
       body main .contenedorProduct .productDetail {
@@ -412,7 +402,13 @@ body {
 @media screen and (min-width: 641px) {
   body main .contenedorProduct .productDetail .single_image .etalage_small_thumb {
     width: 75px !important;
-    height: 100px !important; } }
+    height: 100px !important; }
+  body main .contenedorProduct .productDetail .descripcion h2 {
+    font-size: 1.5rem; }
+  body main .contenedorProduct .productDetail .descripcion h3 {
+    font-size: 1.1rem; }
+  body main .contenedorProduct .productDetail .descripcion p {
+    font-size: 0.85rem; } }
 
 @media screen and (min-width: 769px) {
   #aboutBg {
@@ -422,7 +418,7 @@ body {
   p {
     font-size: 1.6rem; }
   body header .headerContainer .nav li a {
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
   body main .slider {
     height: 40rem; }
   body main .destacados .slideContent h2 {
@@ -434,9 +430,9 @@ body {
     body main .productos .producto {
       width: 22%; }
       body main .productos .producto .productoTxt h3 {
-        font-size: 0.9rem; }
+        font-size: 1.2rem; }
       body main .productos .producto .productoTxt p {
-        font-size: 0.8rem; }
+        font-size: 1.1rem; }
       body main .productos .producto #titleProduct h3 {
         font-size: 1.8rem; }
     body main .productos #product {
@@ -491,7 +487,11 @@ body {
   body header .headerContainer a .logo {
     width: 50%; }
   body header .headerContainer .nav li a {
-    font-size: 1.8rem; }
+    font-size: 1.4rem; }
+    body header .headerContainer .nav li a:hover {
+      color: #000; }
+  body header .headerContainer .nav #submenu:hover > ul {
+    display: block; }
   body main .slider {
     height: 45rem; }
   body main .destacados .slideContent h2 {
@@ -512,9 +512,9 @@ body {
     width: 104px !important;
     height: 130px !important; }
   body main .contenedorProduct .productDetail .descripcion h2 {
-    font-size: 2.1rem; }
+    font-size: 1.9rem; }
   body main .contenedorProduct .productDetail .descripcion h3 {
-    font-size: 1.7rem; }
+    font-size: 1.5rem; }
   body main .contenedorProduct .productDetail .descripcion p {
     font-size: 1.2rem; }
   body main .contenedorProduct .productDetail .descripcion .talle {
@@ -532,7 +532,9 @@ body {
   body main .contenedorProduct .productDetail .descripcion a .precio {
     margin-top: 1.7rem; }
     body main .contenedorProduct .productDetail .descripcion a .precio h4 {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem; }
+    body main .contenedorProduct .productDetail .descripcion a .precio:hover {
+      background-color: #ddaa28; } }
 
 @media screen and (min-width: 1440px) {
   #aboutBg {
@@ -544,7 +546,7 @@ body {
   body {
     grid-template-rows: 20rem auto 30rem; }
     body header .headerContainer .nav li a {
-      font-size: 2.5rem; }
+      font-size: 2rem; }
     body main .slider {
       height: 55rem; }
     body main .destacados .slideContent h2 {
@@ -597,7 +599,7 @@ body {
   p {
     font-size: 3rem; }
   body header .headerContainer .nav li a {
-    font-size: 3rem; }
+    font-size: 2.2rem; }
   body main .slider {
     height: 85rem; }
   body main .destacados .slideContent h2 {
